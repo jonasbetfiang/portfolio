@@ -13,24 +13,6 @@
 			<!-- Header -->
 				<header id="header">
 					<h1 id="logo"><a href="index.html">Programmer Analyst & Full Stack Cloud Developer</a></h1><br/><br/>
-					<script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
-<!-- Load React DOM-->
-<script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<!-- Load Babel Compiler -->
-<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-<!--
-A container to display react DOM elements
--->
-<!--Hello World!-->
-	
-<div id="comp1"></div>
-
-<script type="text/babel">
-    const displayTime = () => {
-        const currDate = new Date();
-        ReactDOM.render(<p>{currDate.toString()}</p>, document.getElementById('comp1'));
-    }
-    setInterval(displayTime, 1000);</script>
 					<nav id="nav">
 						<ul>
 							<li><a href="#">NETWORKER | EFFICIENT | ACHIEVER</a></li>
@@ -57,7 +39,22 @@ A container to display react DOM elements
 						</ul> -->
 					</nav>
 				</header>
-
+<script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<!-- Load React DOM-->
+<script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<!-- Load Babel Compiler -->
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<!--
+A container to display react DOM elements
+-->
+<!--Hello World!-->	
+<div id="comp1"></div>
+<script type="text/babel">
+    const displayTime = () => {
+        const currDate = new Date();
+        ReactDOM.render(<p>{currDate.toString()}</p>, document.getElementById('comp1'));
+    }
+    setInterval(displayTime, 1000);</script>
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
